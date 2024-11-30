@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Show Snackbar -->
+    <Button
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btn_show_snackbar"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Show Snackbar"
+        android:drawableLeft="@drawable/info"
+        android:drawablePadding="8dp"
+        android:textSize="16sp"/>
+
+    <!-- Show AlertDialog -->
+    <Button
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btn_show_alertdialog"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Show AlertDialog"
+        android:drawableLeft="@drawable/alert"
+        android:drawablePadding="8dp"
+        android:textSize="16sp"/>
+
+    <!-- Show Notification -->
+    <Button
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btn_show_notification"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Show Notification"
+        android:drawableLeft="@drawable/notification"
+        android:drawablePadding="8dp"
+        android:textSize="16sp"/>
+
+    <!-- Show WebView -->
+    <Button
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btn_show_webview"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Show WebView"
+        android:drawableLeft="@drawable/web"
+        android:drawablePadding="8dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>

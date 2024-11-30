@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient background -->
+    <gradient
+        android:angle="45"
+        android:startColor="#6717CD"
+        android:endColor="#296FF9"
+        android:type="linear"
+        android:gradientRadius="90" />
+
+    <!-- Optional: Add rounded corners -->
+    <corners android:radius="16dp" /> <!-- This will round the corners of the button -->
+
+    <!-- Optional: Add border around the button -->
+    <stroke
+        android:color="#FFFFFF"
+        android:width="2dp" />  <!-- White border -->
+
+    <!-- Optional: Add padding inside the button -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp" />
+</shape>
